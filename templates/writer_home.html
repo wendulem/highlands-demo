@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="Deep One-Liners" name="keywords">
+    <meta content="" name="description">
+    <meta content="np-template-header-footer-from-plugin" name="page_type">
+    <title>
+      Home
+    </title>
+    <link href="{{ url_for('static', filename='nicepage.css') }}" media=
+    "screen" rel="stylesheet">
+    <link href="{{ url_for('static', filename='Home.css') }}" media="screen"
+    rel="stylesheet">
+    <script class="u-script" defer src={{url_for('static',filename='jquery.js')}} type="text/javascript"></script>
+    <script class="u-script" defer src=
+    "{{url_for('static',filename='nicepage.js')}}" type=
+    "text/javascript"></script>
+    <meta content="Nicepage 3.15.3, nicepage.com" name="generator">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    id="u-theme-google-font" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "",
+            "url": "index.html",
+            "logo": "images/logo.png"
+        }
+    </script>
+    <meta content="Home" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="#478ac9" name="theme-color">
+    <link href="index.html" rel="canonical">
+    <meta content="index.html" property="og:url">
+  </head>
+  <body class="u-body">
+    <header class="u-clearfix u-header u-section-row-container" id="sec-4b0c">
+      <div class="u-section-rows">
+        <div class="u-black u-clearfix u-section-row u-section-row-1"
+        data-animation-delay="0" data-animation-direction=""
+        data-animation-duration="0" data-animation-name="" id="sec-59a5">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <a class="u-image u-logo u-image-1" href="https://www.ai-camp.org"
+            target="_blank" title="ai-camp.org"><img class=
+            "u-logo-image u-logo-image-1" data-image-width="64" src=
+            "{{url_for('static',filename='images/logo.png')}}"></a>
+            <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+              <div class="menu-collapse" style=
+              "font-size: 1rem; letter-spacing: 0px;">
+                <a class=
+                "u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                href="#"><svg>
+                <use xlink:href="#menu-hamburger" xmlns:xlink=
+                "http://www.w3.org/1999/xlink">
+                </use></svg> <svg version="1.1" xmlns=
+                "http://www.w3.org/2000/svg" xmlns:xlink=
+                "http://www.w3.org/1999/xlink">
+                <defs>
+                  <symbol id="menu-hamburger" style=
+                  "width: 16px; height: 16px;" viewbox="0 0 16 16">
+                    <rect height="2" width="16" y="1">
+                    </rect>
+                    <rect height="2" width="16" y="7">
+                    </rect>
+                    <rect height="2" width="16" y="13">
+                    </rect>
+                  </symbol>
+                </defs></svg></a>
+              </div>
+
+              <div class="u-custom-menu u-nav-container">
+                <ul class="u-nav u-unstyled u-nav-1">
+                  <li class="u-nav-item">
+                    <a class=
+                    "u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1"
+                    href="{{url_for('home')}}" style=
+                    "padding: 10px 20px;">Home</a>
+                  </li>
+
+                  <li class="u-nav-item">
+                    <a class=
+                    "u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1"
+                    href="{{url_for('results')}}" style=
+                    "padding: 10px 20px;">Demo</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="u-custom-menu u-nav-container-collapse">
+                <div class=
+                "u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                  <div class="u-sidenav-overflow">
+                    <div class="u-menu-close">
+                    </div>
+
+                    <ul class=
+                    "u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                      <li class="u-nav-item">
+                        <a class="u-button-style u-nav-link" href=
+                        "{{url_for('home')}}" style=
+                        "padding: 10px 20px;">Home</a>
+                      </li>
+
+                      <li class="u-nav-item">
+                        <a class="u-button-style u-nav-link" href=
+                        "{{url_for('results')}}" style=
+                        "padding: 10px 20px;">Demo</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="u-black u-menu-overlay u-opacity u-opacity-70">
+                </div>
+              </div>
+            </nav>
+            <a class=
+            "u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1"
+            href="https://www.ai-camp.org">ai-camp.org</a>
+          </div>
+        </div>
+
+        <div class="u-section-row u-section-row-2" id="sec-fca8">
+          <div class="u-clearfix u-sheet u-sheet-2">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1"
+    data-image-height="800" data-image-width="1200" id="sec-c5ee" src="">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1">
+          DeepSpeak
+        </h1>
+
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          Never be accidentally muted again.
+        </p>
+        <a class="u-btn u-button-style u-custom-color-1 u-btn-1" data-page-id=
+        "63707491" href="{{url_for('results')}}">Try It Now!</a>
+      </div>
+    </section>
+
+    <section class="u-align-center u-clearfix u-custom-typography u-typography-custom-page-typography-38--Team u-white u-section-3" id="carousel_391b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-1">Our Team</h2>
+        <div class="u-clearfix u-disable-padding u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <img src=" {{url_for('static', filename='../static/images/oE43hKDw83blSxe7FBjvj6X7_K6B_hsXkbcgNopX.png') }}" alt="" class="u-align-left u-expanded-width u-image u-image-1" data-image-width="1280" data-image-height="853">
+                  <h3 class="u-align-center u-text u-text-3">Hayden Macko</h3>
+                  <h4 class="u-align-center u-text u-text-4">Front-End Engineer</h4>
+                  <p></p>>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-2">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <img src="{{url_for('static', filename='../static/images/bruh.png')}}" class="u-logo-image u-logo-image-1" data-image-width="64" alt="Rex picture">
+                  <h3 class="u-text u-text-5"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rex L</a></h3>
+                  <h4 class="u-text u-text-6">Data Scientist</h4>
+                  <p>rex stonks brr senpai onii-chan owo mom look im famous</p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-3">
+                <div class="u-container-layout u-valign-top u-container-layout-3">
+                  <img src="{{url_for('static', filename='../static/images/bruh2.png')}}" class="u-logo-image u-logo-image-1" data-image-width="64">
+                  <h3 class="u-text u-text-7">Anderson Lee</h3>
+                  <h4 class="u-text u-text-8">Web Designer</h4>
+                  <p>Anderson spends his days gaming and reading books. He plays tennis and enjoys coding. Working on DeepSpeak was a very educational experience for him.</p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-4">
+                <div class="u-container-layout u-valign-top u-container-layout-4">
+                  <img src=" {{url_for('static', filename='../static/images/Picture.png') }}" alt="" class="u-align-left u-expanded-width u-image u-image-4" data-image-width="275" data-image-height="349">
+                  <h3 class="u-text u-text-9">Maddy Duong</h3>
+                  <h4 class="u-text u-text-10">Web Designer</h4>                                   <p>
+                  Maddy likes to read, swim, and code. She says that working on Deepspeak was really enjoyable, and she learned a lot from that experience.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="u-align-center u-clearfix u-custom-typography u-typography-custom-page-typography-38--Team u-white u-section-4" id="carousel_ed0a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-disable-padding u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <div class="BottomRow">
+                    <img src=" {{url_for('static', filename='../static/images/WillemGrant.png') }}" alt="" class="u-align-left u-expanded-width u-image u-image-1" data-image-width="1164" data-image-height="1280">
+                  </div>
+                  <h3 class="u-align-center u-text u-text-2">Willem Grant</h3>
+                  <h4 class="u-align-center u-text u-text-3">Product Manager</h4>
+                  <p>
+                    Willem enjoys computers, video games, electronic music, and AI. His favorite music artist is Etherwood, and his favorite video game is BallisticNG, a racing game, and Minecraft. He is proud to help create this AI product!
+                  </p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-2">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <img src="{{ url_for('static', filename='../static/images/Naruto_newshot.png')}}" alt="" class="u-align-left u-expanded-width u-image u-image-1" data-image-width="64">
+                  <h3 class="u-text u-text-3">Om Mahalingam</h3>
+                  <h4 class="u-text u-text-4">Web Designer</h4>
+                  <p> Om likes to play baseball, basketball, video games and code. He plays on a travel ball team called the Rascals and has also competed in online tournaments before! He is very happy to help make DeepSpeak.</p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-3">
+                <div class="u-container-layout u-valign-top u-container-layout-3">
+                  <img src="{{url_for('static', filename='../static/images/connor.png')}}" class="u-logo-image u-logo-image-1" data-image-width="64">
+                  <h3 class="u-align-center u-text u-text-5">Connor Johnson</h3>
+                  <p classs="u-align-center u-text u-text-6">Connor is a Sophomore at Duke University and a dedicated foodie.</p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-similar-fill u-size-15 u-size-30-md u-layout-cell-4">
+                <div class="u-container-layout u-valign-top u-container-layout-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id=
+    "sec-9a0b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">
+          AI Camp teaches middle and high school students machine learning and
+          career frameworks through real life experience. Build something
+          amazing with us!
+          <br>
+          <br>
+          <a class=
+          "u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-1 u-btn-1"
+          href="https://www.ai-camp.org">ai-camp.org</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

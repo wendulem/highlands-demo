@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html -->
+<html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lip Reading Sentences 3 (LRS3) dataset</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./vvadthumbnail_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="./vvadthumbnail_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./vvadthumbnail_files/css" rel="stylesheet" type="text/css">
+    <link href="./vvadthumbnail_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./vvadthumbnail_files/css(2)" rel="stylesheet" type="text/css">
+    <link href="./vvadthumbnail_files/css(3)" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="./vvadthumbnail_files/agency_lrs3.css" rel="stylesheet">
+
+    <style>
+    table {border: 0; }
+    th, td { padding: 3px; }
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">VoxCeleb</a>-->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/index.html#portfolio">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/index.html#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/index.html#applications">Applications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/index.html#ack">Acknowledgements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header background-color: rgba(0, 0, 0, .8);
+z-index: 1000;  -->
+    <header class="masthead">
+    <!--<div class="overlay1">-->
+      <div class="container2">
+  </div>
+    </header>
+
+
+    <!-- About -->
+    <section id="VoxCeleb1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading text-center">Lip Reading Sentences 3 (LRS3) Dataset</h2>
+
+<br>
+
+<h3>Overview</h3>
+<p>
+The dataset consists of 
+thousands of spoken sentences from TED and TEDx videos.
+There is no overlap between the videos used to create the test set and the ones used for the pre-train and trainval sets.
+The dataset statistics are given in the table below. 
+
+</p><table border="1">
+<tbody><tr>
+<td><b>Set</b></td><td><b># videos</b></td><td align="right"><b># utterances</b></td><td align="right"><b># word instances</b></td><td align="right"><b>Vocab</b></td>
+</tr><tr>
+<td>Pre-train</td><td align="right">5,090</td><td align="right">118,516</td><td align="right">3.9M</td><td align="right">51k</td>
+</tr><tr>
+<td>Trainval</td><td align="right">4,004</td><td align="right">31,982</td><td align="right">358k</td><td align="right">17k</td>
+</tr><tr>
+<td>Test</td><td align="right">412</td><td align="right">1,321</td><td align="right">10k</td><td align="right">2k</td>
+</tr>
+</tbody></table>
+
+<p></p>
+<p>The <a href="http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3-lang.html">Lip Reading Sentences 3 Languages</a> (LRS3-Lang) dataset is an extended version of LRS3 (English-only) covering 13 different languages.  </p>
+
+</div></div>
+</div>
+</section>
+<section>
+
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-12">
+
+<h3>Downloads</h3><br>
+
+<font color="red"><b>Updates:</b></font> <br>
+<b>v0.3</b>: We have had to remove a number of videos from the <b>pre-train</b> set, due to errors in the original version. If you have downloaded the dataset before 28 October 2018, please remove <a href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/files/toremove1.txt">these folders</a> from the <b>pre-train</b> set only. There should be 118,516 video files in the pre-train set after removing these folders. Alternatively, you can re-download the pre-train set from the updated links on this page.  <br>
+<b>v0.4</b>: We have removed a number of videos from the <b>test</b> set, due to <s>overlapped identities</s> dupplicate videos between training and test sets. Please replace the test set only. There should be 412 folders and 1,321 utterances in the updated version.  <br><br>
+
+ <h5>URLs and timestamps</h5>
+<p> For every sample we provide: i) the URL ('ref' entry in the text file) and frame ids of the original YouTube video it was created from, ii) the face detection bounding box for every frame, iii) the word boundary timestamps (pre-train set only). The frame numbers provided assume that the video is sampled at <tt>25fps</tt>. </p>
+
+
+<table border="0"><tbody><tr>
+<td><b>File</b></td><td> <tt>MD5 Checksum</tt></td></tr>
+<tr><td><a href="https://www.robots.ox.ac.uk/~vgg/data/lip_reading/files/lrs3_v0.4_txt.zip">All sets</a> </td><td><tt>d6a322038ce4fb2cd53742b28901070f</tt></td></tr> 
+</tbody></table>
+
+<br><br>
+
+<h5>Video files</h5>
+<p> 
+If you require the video files (loosely cropped face region), please fill <a href="https://goo.gl/forms/vGZmhJaZ9LAklozz2">this form</a> to request a password.  Please cite [1] below if you make use of the dataset.
+<br><br>
+<b>Password issued for LRW and LRS2 datasets can also be used to download LRS3.</b>
+</p>
+ <br>
+
+
+<table border="0"><tbody><tr>
+<td><b>File</b></td><td></td><td></td><td> <tt>MD5 Checksum</tt></td></tr>
+<tr><td>Pretrain A</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partaa">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partaa">Mirror</a>  </td><td><tt>c6db35cf0bd550a6b82712b8311931f5</tt></td></tr> 
+<tr><td>Pretrain B</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partab">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partab">Mirror</a>  </td><td><tt>f45fd4c6fcd72e55f90792bb204e8c8b</tt></td></tr> 
+<tr><td>Pretrain C</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partac">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partac">Mirror</a>  </td><td><tt>3cd5c1a85526097a50d04464b1e76d1e</tt></td></tr> 
+<tr><td>Pretrain D</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partad">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partad">Mirror</a>  </td><td><tt>541b0b449df0bfd173a351f523dbec8c</tt></td></tr> 
+<tr><td>Pretrain E</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partae">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partae">Mirror</a>  </td><td><tt>be1bdd48e47332ab8143fcb5adefff58</tt></td></tr> 
+<tr><td>Pretrain F</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partaf">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partaf">Mirror</a>  </td><td><tt>8f7d70a6ecb8912e4dc7729b311df911</tt></td></tr> 
+<tr><td>Pretrain G</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_pretrain_partag">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_pretrain_partag">Mirror</a>  </td><td><tt>4fe5ff72e33e58a6cf22964239d9a30f</tt></td></tr> 
+<tr><td>Trainval</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_trainval.zip">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_trainval.zip">Mirror</a>  </td><td><tt>ed87c25127e7baae467f06db4f402838</tt></td></tr> 
+<tr><td>Test</td><td><a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/lrs3_test_v0.4.zip">Download</a>  </td><td><a href="http://balthasar.tplinkdns.com/lip_reading/data3/lrs3_test_v0.4.zip">Mirror</a>  </td><td><tt>ffffd01e37e8da95ca1a6c27eb9d29f4</tt></td></tr> 
+</tbody></table>
+<br><br>
+Each part is approximately 10GB. Download all parts and concatenate the files using the command <tt>cat lrs3_pretrain_part* &gt; lrs3_pretrain.zip</tt> . The <tt>md5sum</tt> of the concatenated file should be <tt>5cc09122c76e2b5a869283219603905e</tt>.
+<br>If you are experiencing slow connection, follow <a href="https://thor.robots.ox.ac.uk/~vgg/data/lip_reading/data3/gdrive_lrs3.html">this link</a>.<br><br>
+
+The data include excerpts of videos obtained from the TED YouTube channel. 
+Use of this content must respect the <a href="https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use">TED terms of use </a> and the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Creative Commons BY-NC-ND 4.0 license</a>.
+
+<br><br>
+
+<p class="section-subheading text-muted">Please cite the following if you make use of the dataset.</p>
+
+   </div>
+        </div>
+</div>
+ <!-- <div class="row text-center">
+          <div class="col-md-4">
+
+<br>
+</div>
+
+<div class="col-md-4">
+
+
+<br><br>
+</div>
+<div class="col-md-4">
+</div>
+</div> -->
+</section>
+<section>
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-12">
+            
+
+<h3>Publications</h3><br>
+
+<div class="ref">
+  <div class="authors">[1]
+   T. Afouras,
+   J. S. Chung,
+   A. Zisserman
+  </div>
+   <div class="title">
+   <a href="https://arxiv.org/pdf/1809.00496.pdf">
+    LRS3-TED: a large-scale dataset for visual speech recognition
+   </a> &nbsp; 
+  </div>
+  <div class="conf">
+   arXiv preprint arXiv:1809.00496
+  </div>
+  <div class="links">
+     <a onclick="if (document.getElementById(&quot;BIBAfouras18d&quot;).style.display==&quot;none&quot;) document.getElementById(&quot;BIBAfouras18d&quot;).style.display=&quot;block&quot;; else document.getElementById(&quot;BIBAfouras18d&quot;).style.display=&quot;none&quot;;"> Bibtex </a> |  <a href="https://arxiv.org/pdf/1809.00496.pdf"> PDF </a>  </div>
+  <div style="display: none;" class="BibtexExpand" id="BIBAfouras18d">
+   <pre class="bibtex">@InProceedings{Afouras18d,
+  author       = "Afouras, T. and Chung, J.~S. and Zisserman, A.",
+  title        = "LRS3-TED: a large-scale dataset for visual speech recognition",
+  booktitle    = "arXiv preprint arXiv:1809.00496",
+  year         = "2018",
+}
+</pre>
+
+  </div>
+ </div>
+ <br>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright © Visual Geometry Group. </span> 
+          </div>
+          <div class="col-md-4">
+<!--             <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+               <p>Design by <a href="https://startbootstrap.com/template-overviews/agency/">BootStrap </a></p>
+              </li>
+        
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="./vvadthumbnail_files/jquery.min.js"></script>
+    <script src="./vvadthumbnail_files/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./vvadthumbnail_files/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="./vvadthumbnail_files/jqBootstrapValidation.js"></script>
+    <script src="./vvadthumbnail_files/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="./vvadthumbnail_files/agency.min.js"></script>
+
+  
+
+
+</body></html>
