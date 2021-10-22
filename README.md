@@ -5,7 +5,12 @@ Instructions:
 -Download out model weights from here and place them in the repository folder
 You're all good to go now!
 
-For more help, type <br />
-    
-    python main.py --help
+## Setup: 
 
+Installation <br />
+    
+    virtualenv venv
+    source activate venv/bin/activate
+    pip install -r requirements
+    
+Download model weights from [here](https://drive.google.com/file/d/1h-oHkO3qs2tDCnMw8U4Poi9FRa15Savy/view?usp=sharing).
