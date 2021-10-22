@@ -1,5 +1,5 @@
 # Highlands Team Demo
-This app is not deployed because of issues with the WebRTC protocol used to transfer webcam video on the frontend in refactored projects.
+This app can only be reproduced locally because it uses OpenCV's VideoCapture function. There is no deployed version because of incompatibilities with AI camp servers and existing real-time communications protocols.
 
 ## Setup: 
     virtualenv venv
@@ -7,3 +7,4 @@ This app is not deployed because of issues with the WebRTC protocol used to tran
     pip install -r requirements
     
 Download model weights from [here](https://drive.google.com/file/d/1h-oHkO3qs2tDCnMw8U4Poi9FRa15Savy/view?usp=sharing).
+
