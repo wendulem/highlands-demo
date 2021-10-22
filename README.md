@@ -4,3 +4,8 @@ Instructions:
 -Clone the repository and generate a virtual enviornment using the requirements.txt file using pip install -r requirements.txt
 -Download out model weights from here and place them in the repository folder
 You're all good to go now!
+
+For more help, type <br />
+    
+    python main.py --help
+
