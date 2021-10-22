@@ -6,9 +6,6 @@ Instructions:
 You're all good to go now!
 
 ## Setup: 
-
-Installation <br />
-    
     virtualenv venv
     source activate venv/bin/activate
     pip install -r requirements
